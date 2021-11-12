@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebaseProje</string>
+    <string name="btn_login">Giriş</string>
+    <string name="login_need">Yeni Bir Hesaba İhtiyacım Var</string>
+    <string name="application_name">Firebase Uygulaması</string>
+    <string name="reg_to_login">Zaten Bir Hesabım Var</string>
+</resources>

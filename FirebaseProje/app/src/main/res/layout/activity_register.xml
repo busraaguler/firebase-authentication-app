@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#ff5722">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="220dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        app:srcCompat="@drawable/app_logo" />
+
+    <EditText
+        android:id="@+id/register_name"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Email Adres"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/edittext_background"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/button_background"
+        android:text="Kayıt Ol"
+        android:textAllCaps="false"></Button>
+
+    <TextView
+        android:id="@+id/register_to_login"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp"
+        android:text="@string/reg_to_login"
+        android:textSize="17dp"/>
+</RelativeLayout>
